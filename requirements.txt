@@ -1,0 +1,10 @@
+# Python dependencies for Screen Tracker
+# Note: On Termux/Android, install Pillow via: pkg install python-pillow
+# On Ubuntu/Debian, install Tesseract via: sudo apt install tesseract-ocr
+# On macOS, install Tesseract via: brew install tesseract
+
+pillow>=10.0.0
+mss>=9.0.0
+pytesseract>=0.3.10
+psutil>=5.9.0
+python-dotenv>=1.0.0
